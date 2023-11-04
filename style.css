@@ -324,7 +324,7 @@ footer {
   }
 } */
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 600px) {
   .cta{
   flex-direction: column;
   justify-content: center;
@@ -335,6 +335,8 @@ footer {
   .work{
     flex-direction: column;
     width: 45rem;
+    justify-content: center;
+    align-items: center;
   }
   .skills {
     margin: 2rem auto 0;

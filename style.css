@@ -323,3 +323,11 @@ footer {
     flex: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .cta{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}

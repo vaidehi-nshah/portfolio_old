@@ -336,12 +336,12 @@ footer {
     flex-direction: row;
     width: 45rem;
   } */
-  .portfolio,
+/*   .portfolio,
   .work{
     margin: 2rem auto;
     flex-wrap: wrap;
     justify-content: center;
-  }
+  } */
   .wrapper {
     width: calc(48%);
     flex: none;

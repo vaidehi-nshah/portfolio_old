@@ -302,24 +302,40 @@ footer {
   margin: 3rem 0;
 }
 
+@media screen and (min-width: 900px) {
+  .skills,
+  .portfolio,
+  .work{
+    flex-direction: row;
+    width: 45rem;
+  }
+  .skills {
+    margin: 2rem auto 0;
+  }
+  .portfolio,
+  .work{
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper {
+    width: calc(48%);
+    flex: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .cta{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .skills,
   .portfolio,
   .work{
     flex-direction: column;
-    width: 45rem;
     justify-content: center;
     align-items: center;
-    position: fixed;
-  }
-  .skills {
-    margin: 2rem auto 0;
   }
   .portfolio,
   .work{

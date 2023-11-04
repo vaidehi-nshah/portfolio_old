@@ -325,16 +325,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .cta{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
+  .cta,
   .skills,
   .portfolio,
   .work{
-    flex-direction: column;
-    width: 45rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   .portfolio,
   .work{

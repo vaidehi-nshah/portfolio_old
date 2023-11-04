@@ -99,20 +99,6 @@ workBtn.addEventListener("click", () => {
 //   skillsBtn.classList.add("active-btn");
 // });
 
-// Add click event listeners to toggle between front and back sides
-document.addEventListener("DOMContentLoaded", () => {
-  // Get all the work card containers
-  const workCards = document.querySelectorAll(".work-card");
-
-  workCards.forEach((card) => {
-    // Add a click event listener to each work card
-    card.addEventListener("click", () => {
-      // Toggle the class to switch between the front and back sides
-      card.classList.toggle("flipped");
-    });
-  });
-});
-
 // Light & Dark Theme
 document.addEventListener("DOMContentLoaded", () => {
   const toggleThemeButton = document.getElementById("toggleTheme");

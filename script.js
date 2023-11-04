@@ -107,6 +107,16 @@ function changeImage(imageId, newImagePath) {
   }
 }
 
+$('#ma_link').click(function($e) {
+    $e.preventDefault();
+    doSomething();
+});
+
+document.getElementById('#ma_link').addEventListener('click', function (e) {
+    e.preventDefault();
+    doSomething();
+})
+
 // Light & Dark Theme
 document.addEventListener("DOMContentLoaded", () => {
   const toggleThemeButton = document.getElementById("toggleTheme");

@@ -352,18 +352,3 @@ footer {
     flex: none;
   }
 }
-/* @media screen and (max-width: 600px) {
-  .cta,
-  .skills,
-  .portfolio,
-  .work{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  .wrapper {
-    width: calc(48%);
-    flex: none;
-  }
-}
- */

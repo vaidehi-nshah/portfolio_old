@@ -330,4 +330,20 @@ footer {
   justify-content: center;
   align-items: center;
   }
+  .skills,
+  .portfolio,
+  .work{
+    flex-direction: row;
+    width: 45rem;
+  }
+  .portfolio,
+  .work{
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper {
+    width: calc(48%);
+    flex: none;
+  }
 }

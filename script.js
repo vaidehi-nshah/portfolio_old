@@ -100,11 +100,16 @@ workBtn.addEventListener("click", () => {
 // });
 
 // Add click event listeners to toggle between front and back sides
-const workCards = document.querySelectorAll('.work-card');
-workCards.forEach((card) => {
-  card.addEventListener('click', () => {
-    card.querySelector('.work-front').style.transform = 'rotateY(0deg)';
-    card.querySelector('.work-back').style.transform = 'rotateY(180deg)';
+document.addEventListener("DOMContentLoaded", () => {
+  // Get all the work card containers
+  const workCards = document.querySelectorAll(".work-card");
+
+  workCards.forEach((card) => {
+    // Add a click event listener to each work card
+    card.addEventListener("click", () => {
+      // Toggle the class to switch between the front and back sides
+      card.classList.toggle("flipped");
+    });
   });
 });
 

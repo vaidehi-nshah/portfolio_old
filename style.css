@@ -333,7 +333,7 @@ footer {
   .skills,
   .portfolio,
   .work{
-    flex-direction: row;
+    flex-direction: column;
     width: 45rem;
   }
   .skills {

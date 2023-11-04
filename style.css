@@ -330,12 +330,12 @@ footer {
   justify-content: center;
   align-items: center;
   }
-  .skills,
+/*   .skills,
   .portfolio,
   .work{
     flex-direction: row;
     width: 45rem;
-  }
+  } */
   .portfolio,
   .work{
     margin: 2rem auto;

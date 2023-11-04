@@ -323,3 +323,68 @@ footer {
     flex: none;
   }
 }
+
+/* Add a media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+  .theme-btn {
+    left: 0;
+  }
+
+  .hero-pic {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .hero-pic img {
+    object-position: top 0;
+    transform: scale(1);
+  }
+
+  .hero-info h1,
+  h2 {
+    font-weight: 300;
+  }
+
+  .experience {
+    max-width: 100%;
+  }
+
+  .experience h2 {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .btn,
+  .btn-bg,
+  .wrapper h3 {
+    font-size: 0.9rem;
+  }
+
+  .portfolio-skills {
+    height: auto;
+  }
+
+  .btn-bg,
+  .wrapper {
+    width: 100%;
+  }
+
+  .skills,
+  .portfolio,
+  .work {
+    width: auto;
+  }
+
+  article {
+    flex-wrap: nowrap;
+  }
+
+  article p {
+    flex-grow: 1;
+    padding: 0.5rem;
+  }
+
+  footer {
+    margin: 2rem 0;
+  }
+}

@@ -344,7 +344,7 @@ footer {
     justify-content: center;
   }
   .wrapper {
-    width: calc(48%);
+    width: calc(68%);
     flex: none;
   }
 }

@@ -319,7 +319,7 @@ footer {
     justify-content: center;
   }
   .wrapper {
-    width: calc(49%);
+    width: calc(90%);
     flex: none;
   }
 }

@@ -99,6 +99,14 @@ workBtn.addEventListener("click", () => {
 //   skillsBtn.classList.add("active-btn");
 // });
 
+function changeImage(imageId, newImagePath) {
+  const image = document.getElementById(imageId);
+  
+  if (image) {
+    image.src = newImagePath;
+  }
+}
+
 // Light & Dark Theme
 document.addEventListener("DOMContentLoaded", () => {
   const toggleThemeButton = document.getElementById("toggleTheme");
